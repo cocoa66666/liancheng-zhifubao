@@ -1,0 +1,179 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: rgba(243, 243, 243, 1);
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.modal {
+	position: fixed;
+	left: 85rpx;
+	top: 346rpx;
+	width: 580rpx;
+	height: 252rpx;
+	background: #FFFFFF;
+	border-radius: 20rpx;
+}
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+.modal_content {
+	font-size: 36rpx;
+	color: #444A4D;
+	position: absolute;
+	top: 60rpx;
+	left: 105rpx;
+}
+.modal_confirm {
+	width: 100%;
+	height: 88rpx;
+	border-top: 2rpx solid #DDDDDD;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-radius: 0 0 20rpx 20rpx;
+}
+.modal_confirm_flex {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	border-right: 2rpx solid #DDDDDD;
+	font-size: 32rpx;
+	text-align: center;
+	line-height: 88rpx;
+}
+
+/* 顶部 */
+.top {
+	width: 100%;
+	height: 304rpx;
+	background: -webkit-linear-gradient(#56CA7E, #4FB773);
+	background: linear-gradient(#56CA7E, #4FB773);
+	position: absolute;
+	top: 0;
+}
+.phoImg {
+	width: 130rpx;
+	height: 130rpx;
+	position: absolute;
+	left: 40rpx;
+	top: 80rpx;
+}
+.phoNum {
+	position: absolute;
+	top: 121rpx;
+	left: 200rpx;
+	color: #FFFFFF;
+	font-size: 34rpx;
+}
+
+/* 服务 */
+.service {
+	width: 100%;
+	height: 982rpx;
+	background: #FFFFFF;
+	border-radius: 40rpx;
+	position: absolute;
+	top: 248rpx;
+	box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.4);
+}
+.service_title {
+	font-size: 34rpx;
+	font-family: 苹方-简 中黑体;
+	width: 70rpx;
+	height: 48rpx;
+	position: absolute;
+	left: 30rpx;
+	top: 30rpx;
+	font-weight: bold;
+}
+.service_content {
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding-top: 20rpx;
+}
+.ser_con {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 100rpx;
+	line-height: 100rpx;
+	position: relative;
+	text-align: center;
+}
+.ser_con_img {
+	width: 40rpx;
+	height: 40rpx;
+	position: absolute;
+	left: 40rpx;
+	top: 30rpx;
+}
+.ser_con_img3 {
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	left: 35rpx;
+	top: 25rpx;
+}
+.ser_con_word {
+	position: absolute;
+	left: 120rpx;
+	font-size: 30rpx;
+	color: #333333;
+	font-size: 苹方-简 常规体;
+}
+.ser_con_img2 {
+	width: 28rpx;
+	height: 28rpx;
+	position: absolute;
+	right: 40rpx;
+	top: 36rpx;
+}
+.btn {
+	background: none;
+	border: none;
+}
+button::after {
+	border: none;
+}
+.redDot {
+	width: 14rpx;
+	height: 14rpx;
+	background: red;
+	position: absolute;
+	left: 84rpx;
+	top: 20rpx;
+	border-radius: 50%;
+}
+

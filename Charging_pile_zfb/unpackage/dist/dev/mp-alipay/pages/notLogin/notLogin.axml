@@ -1,0 +1,1 @@
+<view class="content"><view class="title">您还没有登录，请前往登录</view><view data-event-opts="{{[['tap',[['toLogin',['$event']]]]]}}" class="container" onTap="__e">登录/注册</view></view>

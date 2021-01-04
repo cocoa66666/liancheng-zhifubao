@@ -1,0 +1,118 @@
+
+.scroll-Y {
+	width: 100%;
+	height: 1100rpx;
+}
+.scroll-Y ::-webkit-scrollbar {
+	display: none;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: #F3F3F3;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.top_change {
+	width: 100%;
+	height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	text-align: center;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: 0 6rpx 8rpx 0 rgba(0, 0, 0, 0.05);
+	        box-shadow: 0 6rpx 8rpx 0 rgba(0, 0, 0, 0.05);
+}
+.top_change_sub {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	line-height: 90rpx;
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.top_change_sub_word {
+	color: #FEA503;
+}
+.top_change_sub_active {
+	background: #FEA503;
+	width: 54rpx;
+	height: 4rpx;
+	margin: 0 auto;
+}
+.detail_box {
+	position: absolute;
+	top: 114rpx;
+}
+.detail_empty {
+	font-size: 32rpx;
+	color: #999999;
+	margin: 0 auto;
+	position: absolute;
+	top: 248rpx;
+	font-family: 苹方-简;
+	letter-spacing: 2rpx;
+}
+.detail_content {
+	width: 680rpx;
+	height: 106rpx;
+	margin: 0 auto;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	margin-bottom: 20rpx;
+	position: relative;
+}
+.detail_content_word1 {
+	position: absolute;
+	left: 26rpx;
+	top: 12rpx;
+	font-size: 30rpx;
+	font-family: 苹方-简 常规体;
+	font-weight: 500;
+}
+.detail_content_word2 {
+	position: absolute;
+	right: 24rpx;
+	top: 12rpx;
+	font-size: 30rpx;
+	font-family: 苹方-简 常规体;
+	font-weight: 500;
+}
+.detail_content_word3 {
+	position: absolute;
+	right: 24rpx;
+	bottom: 12rpx;
+	font-size: 24rpx;
+	font-family: 苹方-简 常规体;
+	color: #999999;
+}
+.detail_content_date {
+	position: absolute;
+	left: 26rpx;
+	bottom: 12rpx;
+	font-size: 24rpx;
+	font-family: 苹方-简 常规体;
+	color: #999999;
+}
+

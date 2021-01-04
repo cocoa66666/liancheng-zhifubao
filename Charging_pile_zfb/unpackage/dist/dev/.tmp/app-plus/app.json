@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/version/version",
+    "pages/recharge/recharge",
+    "pages/power/power",
+    "pages/charging/charging",
+    "pages/powerDetail/powerDetail",
+    "pages/selectDetail/selectDetail",
+    "pages/aboutUs/aboutUs",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/forget/forget",
+    "pages/notLogin/notLogin",
+    "pages/navi/navi",
+    "pages/myWalletDetail/myWalletDetail",
+    "pages/myWallet/myWallet"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "e享一站",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Charging_pile",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

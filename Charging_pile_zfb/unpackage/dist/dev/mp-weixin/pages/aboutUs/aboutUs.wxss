@@ -1,0 +1,43 @@
+
+.content {
+	background: #FFFFFF;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	font-size: 30rpx;
+	font-weight: 500;
+}
+.slogan {
+	margin-left: 30rpx;
+	margin-top: 10rpx;
+}
+.slogan_wrap {
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+}
+.slogan_pic {
+	width: 10rpx;
+	height: 32rpx;
+	background: #FEA503;
+	display: inline-block;
+	vertical-align: middle;
+}
+.slogan_title {
+	display: inline-block;
+	padding-left: 10rpx;
+	font-weight: 600;
+	font-size: 32rpx;
+	vertical-align: middle;
+	letter-spacing: 2rpx;
+}
+.part {
+	margin-top: 32rpx;
+	width: 690rpx;
+	margin-left: 30rpx;
+}
+.part_content {
+	font-size: 30rpx;
+	padding-left: 60rpx;
+	font-weight: 500;
+}
+

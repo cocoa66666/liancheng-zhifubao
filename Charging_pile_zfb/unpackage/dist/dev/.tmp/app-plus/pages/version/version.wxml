@@ -1,0 +1,1 @@
+<view class="content"><view class="update_title">{{version}}</view><rich-text nodes="{{content}}"></rich-text></view>

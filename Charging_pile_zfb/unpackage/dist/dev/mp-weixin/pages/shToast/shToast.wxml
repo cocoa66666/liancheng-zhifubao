@@ -1,0 +1,1 @@
+<view class="mask999"><view class="shToast"><image class="toastImg" src="{{shImg}}"></image>{{''+content+''}}</view></view>

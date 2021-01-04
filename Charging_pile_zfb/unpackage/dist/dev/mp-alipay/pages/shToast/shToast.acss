@@ -1,0 +1,46 @@
+
+.mask999 {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.shToast {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	width: 300rpx;
+	height: 300rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	background: rgba(0, 0, 0, .6);
+	color: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -150rpx;
+	margin-top: -194rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	word-break: break-all;
+	z-index: 99;
+}
+.toastImg {
+	width: 100rpx;
+	height: 100rpx;
+}
+

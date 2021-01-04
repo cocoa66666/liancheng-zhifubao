@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "e享一站",
+  "usingComponents": {
+    "swiper-dot": "/pages/swiperDot/swiperDot2"
+  }
+}

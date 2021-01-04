@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "联城联充",
+  "usingComponents": {
+    "swiper-dot": "/pages/swiperDot/swiperDot2"
+  }
+}

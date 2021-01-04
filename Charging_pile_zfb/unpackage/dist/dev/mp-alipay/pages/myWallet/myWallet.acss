@@ -1,0 +1,87 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: rgba(243, 243, 243, 1);
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.title {
+	position: absolute;
+	top: 48rpx;
+	left: 30rpx;
+	width: 300rpx;
+	height: 66rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 48rpx;
+	font-weight: 550;
+	letter-spacing: 3rpx;
+}
+.mySurplus {
+	position: absolute;
+	top: 144rpx;
+	left: 30rpx;
+	width: 690rpx;
+	height: 244rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.mySurplus2 {
+	position: absolute;
+	top: 408rpx;
+	left: 30rpx;
+	width: 690rpx;
+	height: 244rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.mySurplus_sub1 {
+	position: absolute;
+	left: 36rpx;
+	top: 22rpx;
+	font-size: 30rpx;
+	font-weight: 450;
+}
+.mySurplus_sub2 {
+	position: absolute;
+	left: 36rpx;
+	top: 74rpx;
+	font-size: 40rpx;
+	font-weight: 548;
+}
+.mySurplus_sub3 {
+	position: absolute;
+	right: 200rpx;
+	top: 174rpx;
+	font-size: 26rpx;
+	color: #FEA503;
+}
+.mySurplus_sub4 {
+	position: absolute;
+	left: 516rpx;
+	top: 162rpx;
+	width: 140rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	font-size: 26rpx;
+	color: #FFFFFF;
+	background: #FEA503;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+}
+

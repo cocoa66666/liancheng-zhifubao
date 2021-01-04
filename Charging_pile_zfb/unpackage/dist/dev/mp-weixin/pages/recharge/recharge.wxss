@@ -1,0 +1,157 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: rgba(243, 243, 243, 1);
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.title {
+	position: absolute;
+	top: 48rpx;
+	left: 30rpx;
+	width: 200rpx;
+	height: 66rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 48rpx;
+	font-weight: 550;
+	letter-spacing: 3rpx;
+}
+.mySurplus_active {
+	width: 306rpx;
+	height: 120rpx;
+	background: #FEA503;
+	color: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(250, 166, 4, 0.5);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(250, 166, 4, 0.5);
+}
+.mySurplus {
+	position: absolute;
+	top: 144rpx;
+	left: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus2 {
+	position: absolute;
+	top: 144rpx;
+	right: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus3 {
+	position: absolute;
+	top: 304rpx;
+	left: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus4 {
+	position: absolute;
+	top: 304rpx;
+	right: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus5 {
+	position: absolute;
+	top: 464rpx;
+	left: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus6 {
+	position: absolute;
+	top: 464rpx;
+	right: 44rpx;
+	width: 306rpx;
+	height: 120rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+	-webkit-box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 4rpx 10rpx 0 rgba(0, 0, 0, 0.2);
+}
+.mySurplus_sub {
+	text-align: center;
+	line-height: 120rpx;
+}
+.charge_button {
+	width: 100%;
+	height: 100rpx;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.charge_button_left {
+	width: 490rpx;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 30rpx;
+	background: #FFFFFF;
+}
+.charge_button_right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 260rpx;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 32rpx;
+	background: #333333;
+	color: #FEA503;
+}
+

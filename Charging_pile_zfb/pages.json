@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/power/power",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#FEA503",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/version/version",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#F3F3F3"
+			}
+		},
+		{
+			"path": "pages/arrears/arrears",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#F3F3F3"
+			}
+		},
+		{
+			"path": "pages/charging/charging",
+			"style": {
+				"navigationBarTitleText": "充电中"
+			}
+		},
+		{
+			"path": "pages/powerDetail/powerDetail",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/selectDetail/selectDetail",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#FEA503",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FEA503",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FEA503",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/notLogin/notLogin",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#F3F3F3"
+			}
+		},
+		{
+			"path": "pages/navi/navi",
+			"style": {
+				"navigationBarTitleText": "联城联充"
+			}
+		},
+		{
+			"path": "pages/myWalletDetail/myWalletDetail",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/myWallet/myWallet",
+			"style": {
+				"navigationBarTitleText": "联城联充",
+				"navigationBarBackgroundColor": "#F3F3F3"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "联城联充",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#FFFFFF"
+	}
+}

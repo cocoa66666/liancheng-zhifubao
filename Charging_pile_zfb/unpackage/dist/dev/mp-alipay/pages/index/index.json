@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "联城联充",
+  "titleBarColor": "#FEA503",
+  "usingComponents": {
+    "swiper-dot": "/pages/swiperDot/swiperDot",
+    "sh-toast": "/pages/shToast/shToast"
+  }
+}

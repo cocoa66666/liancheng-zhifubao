@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "e享一站",
+  "navigationBarBackgroundColor": "#56CC7F",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "swiper-dot": "/pages/swiperDot/swiperDot"
+  }
+}
